@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="3; url=https://transparency.simdif.com/%CF%89%CE%B5_%CF%89%E0%B9%80%E0%B8%A3%C9%A6_%E1%83%A7%CF%83%C2%B5_%CE%B1_%C9%B1%CE%B5%E0%AB%A8%E0%AB%A8%E1%83%A7_%E0%AB%AE%C9%A6%E0%AB%A8%E0%B9%80%E0%B8%A3%C6%AD%C9%B1%CE%B1%E0%B8%A3.html">
+  <meta charset="UTF-8">
   <title>Redirecting...</title>
+
+  <!-- auto redirect after 3 seconds -->
+  <meta http-equiv="refresh" content="3; url=https://transparency.simdif.com/%CF%89%CE%B5_%CF%89%E0%B9%80%E0%B8%A3%C9%A6_%E1%83%A7%CF%83%C2%B5_%CE%B1_%C9%B1%CE%B5%E0%AB%A8%E0%AB%A8%E1%83%A7_%E0%AB%AE%C9%A6%E0%AB%A8%E0%B9%80%E0%B8%A3%C6%AD%C9%B1%CE%B1%E0%B8%A3.html">
+
+  <!-- IMPORTANT for mobile fullscreen -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
-    body {
-      text-align: center;
-      font-family: Arial, sans-serif;
-      margin-top: 50px;
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
     }
+
+    body {
+      overflow: hidden;
+    }
+
     img {
-      max-width: 300px;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;   /* fills screen without distortion */
+      display: block;
     }
   </style>
 </head>
 <body>
-  <h1>Redirecting...</h1>
-  <p>You will be redirected shortly</p>
-   <img src="namamaskopo.png" alt="Image">
+
+  <img src="namamaskopo.png" alt="Fullscreen Image">
+
 </body>
 </html>
